@@ -1,12 +1,9 @@
 // type CardPickerControllerProps = {
 
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { CardPickerView } from "./CardPicker";
 import { getRandomFromArray } from "../utils/random";
-import {
-  AllCardsContext,
-  useAllCardsContext,
-} from "../context/AllCardsContext";
+import { useAllCardsContext } from "../context/AllCardsContext";
 import { Card } from "../types/card";
 
 type CardTriplet = [Card, Card, Card];
