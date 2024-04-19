@@ -1,5 +1,6 @@
 import { getCardImageUrl } from "../utils/getCardImageUrl";
 import type { Card } from "../types/card";
+import "../styles/CardView.scss";
 
 type CardViewProps = {
   card: Card;

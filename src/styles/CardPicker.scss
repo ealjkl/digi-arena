@@ -1,24 +1,14 @@
 .card-picker {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 0;
 }
 
-.card-picker .card-view {
-    overflow: hidden;
-    margin-right: 5px;
-    border-radius: 10px;
-    transition: all 0.1s ease-in;
-    cursor: pointer;
-} 
 
 .card-picker .card-view:hover {
     transform:  translate(25px, -25px) scale(1.1);
     z-index: 1;
 }
 
-.card-picker .card-view img {
-    width: 100%;
-    height: 100%;
-    max-width: 20em;
-}
 
