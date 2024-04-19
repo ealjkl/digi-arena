@@ -9,6 +9,7 @@ type CardViewProps = {
 export function CardView({ card, onClick }: CardViewProps) {
   return (
     <div
+      className="card-view"
       onClick={() => {
         onClick && onClick(card);
       }}
