@@ -1,0 +1,23 @@
+.counter-wrapper {
+    position: relative;
+}
+
+.counter-wrapper-count {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background-color: black;
+    font-size: large;
+    width: 20%;
+    display: flex;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-wrapper-count p {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}

@@ -5,7 +5,9 @@
     gap: 0;
 }
 
-
+.card-picker .card-view {
+    cursor: pointer;
+}
 .card-picker .card-view:hover {
     transform:  translate(25px, -25px) scale(1.1);
     z-index: 1;
